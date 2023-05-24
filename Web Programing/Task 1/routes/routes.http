@@ -1,0 +1,15 @@
+POST http://localhost:6081/users/add
+Content-Type: application/json
+
+{
+    "name": "jim",
+    "surname": "watson"
+}
+###
+GET http://localhost:6081/users/view
+
+
+###
+GET http://localhost:6081/users/view/6284a534cbea9d5796d7aa04
+
+###
