@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\WOODROCK\146753.jpg" />
+    <None Include="wwwroot\WOODROCK\7.jpg" />
+    <None Include="wwwroot\WOODROCK\Adoptions.php" />
+    <None Include="wwwroot\WOODROCK\cat1.jpg" />
+    <None Include="wwwroot\WOODROCK\cat2.jpg" />
+    <None Include="wwwroot\WOODROCK\CSS.css" />
+    <None Include="wwwroot\WOODROCK\dave.jpg" />
+    <None Include="wwwroot\WOODROCK\headerimg.jpg" />
+    <None Include="wwwroot\WOODROCK\index.php" />
+    <None Include="wwwroot\WOODROCK\jen.png" />
+    <None Include="wwwroot\WOODROCK\kiara.png" />
+    <None Include="wwwroot\WOODROCK\Login.php" />
+    <None Include="wwwroot\WOODROCK\nash.png" />
+    <None Include="wwwroot\WOODROCK\nic.png" />
+    <None Include="wwwroot\WOODROCK\rosie.png" />
+    <None Include="wwwroot\WOODROCK\woodrocklogo.jpg" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+</Project>
